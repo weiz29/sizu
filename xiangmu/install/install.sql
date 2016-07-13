@@ -18,8 +18,8 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for we_user
 -- ----------------------------
-DROP TABLE IF EXISTS `we_user`;
-CREATE TABLE `we_user` (
+DROP TABLE IF EXISTS `wex_user`;
+CREATE TABLE `wex_user` (
   `u_id` int(11) NOT NULL AUTO_INCREMENT,
   `u_name` varchar(30) DEFAULT NULL,
   `u_pwd` varchar(255) DEFAULT NULL,
@@ -29,4 +29,21 @@ CREATE TABLE `we_user` (
 
 -- ----------------------------
 -- Records of we_user
+-- ----------------------------
+-- ----------------------------
+-- Table structure for wex_account
+-- ----------------------------
+DROP TABLE IF EXISTS `wex_account`;
+CREATE TABLE `wex_account` (
+  `wx_id` int(11) NOT NULL AUTO_INCREMENT,
+  `wx_name` varchar(50) DEFAULT NULL COMMENT '微信公众号名称',
+  `wx_appid` char(18) DEFAULT NULL COMMENT '公众号AppID',
+  `wx_secret` varchar(32) DEFAULT NULL COMMENT '公众号AppSecret',
+  `wx_remark` varchar(200) DEFAULT NULL COMMENT '备注',
+  `wx_time` datetime DEFAULT NULL COMMENT '添加时间',
+  PRIMARY KEY (`wx_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of wex_account
 -- ----------------------------

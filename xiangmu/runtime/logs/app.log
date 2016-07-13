@@ -4144,3 +4144,1708 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1468047944.6761
     'REQUEST_TIME' => 1468047944
 ]
+2016-07-13 14:15:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index_1' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_1', Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_1', Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-07-13 14:15:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '49254'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_1'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_1'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468390534.29
+    'REQUEST_TIME' => 1468390534
+]
+2016-07-13 14:22:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index_1' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_1', Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_1', Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-07-13 14:22:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '49459'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_1'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_1'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468390939.095
+    'REQUEST_TIME' => 1468390939
+]
+2016-07-13 16:19:10 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\LoginController.php(25): yii\db\ActiveQuery->one()
+#12 [internal function]: app\controllers\LoginController->actionLogin()
+#13 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#14 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#15 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#16 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#17 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\LoginController.php(25): yii\db\ActiveQuery->one()
+#10 [internal function]: app\controllers\LoginController->actionLogin()
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#12 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#13 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#14 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2016-07-13 16:19:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'username' => 'fangxing'
+    'pwd' => 'fangxing'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '30'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '52576'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=login/login'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468397948.673
+    'REQUEST_TIME' => 1468397948
+]
+2016-07-13 18:21:55 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wexin.account' doesn't exist' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php:781
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(781): PDOStatement->execute()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(47): yii\db\Command->execute()
+#2 [internal function]: app\controllers\IndexController->actionIndex_1()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wexin.account' doesn't exist
+The SQL being executed was: INSERT INTO `account` (`wx_name`, `wx_appid`, `wx_secret`, `wx_remark`, `wx_time`) VALUES ('ä¸‡ç½—ä¸ºç½‘ç»œå•†åŠ¡', '1234589', '12345', 'æµ‹è¯•', '2016-07-13 18:21:54')' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `ac...')
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(47): yii\db\Command->execute()
+#2 [internal function]: app\controllers\IndexController->actionIndex_1()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'wexin.account' doesn't exist
+)
+
+2016-07-13 18:21:54 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_1'
+]
+
+$_POST = [
+    'wx_name' => 'ä¸‡ç½—ä¸ºç½‘ç»œå•†åŠ¡'
+    'wx_appid' => '1234589'
+    'wx_secret' => '12345'
+    'wx_remark' => 'æµ‹è¯•'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '133'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '56194'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=index/index_1'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_1'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468405314.076
+    'REQUEST_TIME' => 1468405314
+]
+2016-07-13 18:23:34 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wexin.account' doesn't exist' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php:781
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(781): PDOStatement->execute()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(47): yii\db\Command->execute()
+#2 [internal function]: app\controllers\IndexController->actionIndex_1()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wexin.account' doesn't exist
+The SQL being executed was: INSERT INTO `account` (`wx_name`, `wx_appid`, `wx_secret`, `wx_remark`, `wx_time`) VALUES ('ä¸‡ç½—ä¸ºç½‘ç»œå•†åŠ¡', '1234589', '12345', 'æµ‹è¯•', '2016-07-13 18:23:32')' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `ac...')
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(47): yii\db\Command->execute()
+#2 [internal function]: app\controllers\IndexController->actionIndex_1()
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'wexin.account' doesn't exist
+)
+
+2016-07-13 18:23:32 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_1'
+]
+
+$_POST = [
+    'wx_name' => 'ä¸‡ç½—ä¸ºç½‘ç»œå•†åŠ¡'
+    'wx_appid' => '1234589'
+    'wx_secret' => '12345'
+    'wx_remark' => 'æµ‹è¯•'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '133'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '56223'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=index/index_1'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_1'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468405412.951
+    'REQUEST_TIME' => 1468405412
+]
+2016-07-13 18:25:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/wxsel' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('wxsel', Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/wxsel', Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-07-13 18:25:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/wxsel'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '56243'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/wxsel'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/wxsel'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468405508.771
+    'REQUEST_TIME' => 1468405508
+]
+2016-07-13 18:42:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index_2' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_2', Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_2', Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2016-07-13 18:42:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57175'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468406576.283
+    'REQUEST_TIME' => 1468406576
+]
+2016-07-13 19:26:20 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:26:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57980'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409178.955
+    'REQUEST_TIME' => 1468409178
+]
+2016-07-13 19:26:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:26:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57985'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409199.679
+    'REQUEST_TIME' => 1468409199
+]
+2016-07-13 19:27:01 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:27:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57988'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409220.123
+    'REQUEST_TIME' => 1468409220
+]
+2016-07-13 19:27:03 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:27:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57991'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409221.948
+    'REQUEST_TIME' => 1468409221
+]
+2016-07-13 19:27:28 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:27:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '57994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409247.713
+    'REQUEST_TIME' => 1468409247
+]
+2016-07-13 19:27:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ')'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:208
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:27:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58001'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409257.24
+    'REQUEST_TIME' => 1468409257
+]
+2016-07-13 19:29:14 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:212
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:29:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58111'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409353.258
+    'REQUEST_TIME' => 1468409353
+]
+2016-07-13 19:30:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:212
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:30:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58177'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409452.4
+    'REQUEST_TIME' => 1468409452
+]
+2016-07-13 19:30:54 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:212
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:30:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58180'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409453.76
+    'REQUEST_TIME' => 1468409453
+]
+2016-07-13 19:31:44 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:213
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:31:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58189'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409503.744
+    'REQUEST_TIME' => 1468409503
+]
+2016-07-13 19:31:52 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:213
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:31:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409511.921
+    'REQUEST_TIME' => 1468409511
+]
+2016-07-13 19:32:17 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:216
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-13 19:32:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58198'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409536.496
+    'REQUEST_TIME' => 1468409536
+]
+2016-07-13 19:32:35 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wx_name' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:211
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html(211): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'F:\\web\\phpStudy...', 211, Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(325): require('F:\\web\\phpStudy...')
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\web\\phpStudy...', Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\web\\phpStudy...', Array, Object(app\controllers\IndexController))
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index_2.html', Array, Object(app\controllers\IndexController))
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(77): yii\base\Controller->render('index_2.html', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex_2()
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_2', Array)
+#10 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_2', Array)
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:32:33 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409553.928
+    'REQUEST_TIME' => 1468409553
+]
+2016-07-13 19:32:35 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-13 19:32:33 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409553.928
+    'REQUEST_TIME' => 1468409553
+]
+2016-07-13 19:34:26 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wx_id' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:209
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html(209): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'F:\\web\\phpStudy...', 209, Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(325): require('F:\\web\\phpStudy...')
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\web\\phpStudy...', Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\web\\phpStudy...', Array, Object(app\controllers\IndexController))
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index_2.html', Array, Object(app\controllers\IndexController))
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(77): yii\base\Controller->render('index_2.html', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex_2()
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_2', Array)
+#10 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_2', Array)
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:34:25 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409665.35
+    'REQUEST_TIME' => 1468409665
+]
+2016-07-13 19:34:26 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-13 19:34:25 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409665.35
+    'REQUEST_TIME' => 1468409665
+]
+2016-07-13 19:34:57 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wx_id' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:209
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html(209): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'F:\\web\\phpStudy...', 209, Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(325): require('F:\\web\\phpStudy...')
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\web\\phpStudy...', Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\web\\phpStudy...', Array, Object(app\controllers\IndexController))
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index_2.html', Array, Object(app\controllers\IndexController))
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(77): yii\base\Controller->render('index_2.html', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex_2()
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_2', Array)
+#10 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_2', Array)
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:34:56 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409696.554
+    'REQUEST_TIME' => 1468409696
+]
+2016-07-13 19:34:57 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-13 19:34:56 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409696.554
+    'REQUEST_TIME' => 1468409696
+]
+2016-07-13 19:36:05 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: wx_id' in F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html:209
+Stack trace:
+#0 F:\web\phpStudy\WWW\htdocs\9\xiangmu\views\index\index_2.html(209): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'F:\\web\\phpStudy...', 209, Array)
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(325): require('F:\\web\\phpStudy...')
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\web\\phpStudy...', Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\web\\phpStudy...', Array, Object(app\controllers\IndexController))
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index_2.html', Array, Object(app\controllers\IndexController))
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\controllers\IndexController.php(77): yii\base\Controller->render('index_2.html', Array)
+#6 [internal function]: app\controllers\IndexController->actionIndex_2()
+#7 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index_2', Array)
+#10 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/index_2', Array)
+#11 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\web\phpStudy\WWW\htdocs\9\xiangmu\web\index.php(19): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:36:04 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409764.568
+    'REQUEST_TIME' => 1468409764
+]
+2016-07-13 19:36:05 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 F:\web\phpStudy\WWW\htdocs\9\xiangmu\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-13 19:36:04 [127.0.0.1][-][qafcnk8b6rqs6evecot860afm5][info][application] $_GET = [
+    'r' => 'index/index_2'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9054424064'
+    'pgv_si' => 's9895785472'
+    'PHPSESSID' => 'qafcnk8b6rqs6evecot860afm5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'user_id' => '1'
+    'username' => 'fangxing'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.luoye.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.luoye.com/9/xiangmu/web/index.php?r=index/index_1'
+    'HTTP_COOKIE' => 'pgv_pvi=9054424064; pgv_si=s9895785472; PHPSESSID=qafcnk8b6rqs6evecot860afm5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;F:\\SVN\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.luoye.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/phpStudy/WWW/htdocs'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/web/phpStudy/WWW/htdocs/9/xiangmu/web/index.php'
+    'REMOTE_PORT' => '58251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index_2'
+    'REQUEST_URI' => '/9/xiangmu/web/index.php?r=index/index_2'
+    'SCRIPT_NAME' => '/9/xiangmu/web/index.php'
+    'PHP_SELF' => '/9/xiangmu/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468409764.568
+    'REQUEST_TIME' => 1468409764
+]

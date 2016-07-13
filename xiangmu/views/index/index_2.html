@@ -197,30 +197,33 @@
                 <blockquote class="text-warning" style="font-size:14px">
 
                     <form action="index.php?r=index/index_1" method="post">
-                        <table>
-                            <tr> <div class="form-group">
-                                <th>ID</th>
-                                <th>公众号名称</th>
-                                <th>备注</th>
-                                <th>上传日期</th>
-                                <th>操作</th>
-                            </div>
+                        <table border="1" style="margin-left: 280px; margin-bottom: 20px;" >
+                            <tr  style="height: 30px">
+                                <div class="form-group">
+                                    <th>ID</th>
+                                    <th>公众号名称</th>
+                                    <th>备注</th>
+                                    <th>上传日期</th>
+                                    <th>操作</th>
+                                </div>
                             </tr>
                             <?php foreach($data as $v){?>
-                            <tr>
-                                <td> <?php echo $v['wx_id']?></td>
-                                <td> <?php echo $v['wx_name']?></td>
-                                <td> <?php echo $v['wx_remark']?></td>
-                                <td> <?php echo $v['wx_time']?></td>
-                                <td><a href="#">删除</a>||<a href="#">修改</a>||<a href="#">查看详细信息</a></td>
+                            <tr  style="height: 30px">
+                                <div class="form-group">
+                                        <td>&nbsp; <?= $v['wx_id']?>&nbsp;</td>
+                                        <td> &nbsp;<?= $v['wx_name']?>&nbsp;</td>
+                                        <td> &nbsp;<?= $v['wx_remark']?>&nbsp;</td>
+                                        <td>&nbsp; <?= $v['wx_time']?>&nbsp;</td>
+                                        <td><a href="#">&nbsp;删&nbsp;除&nbsp;</a>&nbsp;||&nbsp;<a href="#">查看详细信息&nbsp;</a></td>
+                                </div>
                             </tr>
                             <?php }?>
 
                         </table>
-                        <a href="javascript:;" id="1">首页</a>
-                        <a href="javascript:;" id="<?php echo $up?>">上一页</a>
-                        <a href="javascript:;" id="<?php echo $down?>">下一页</a>
-                        <a href="javascript:;" id="<?php echo $pages?>">末页</a>
+                        <a style="margin-left: 400px;float: left" href="javascript:;" class="page" mid="1">&nbsp;首页&nbsp;</a>
+                        <a href="javascript:;" class="page" mid="<?php echo $up?>">&nbsp;上一页&nbsp;</a>
+                        <a href="javascript:;" class="page" mid="<?php echo $down?>">&nbsp;下一页&nbsp;</a>
+                        <a href="javascript:;" class="page" mid="<?php echo $pages?>">&nbsp;末页&nbsp;</a>
 
 
 

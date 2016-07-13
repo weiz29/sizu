@@ -40,15 +40,15 @@ class IndexController extends Controller
 
                 //此处应做微信公众号是否填写正确以及是否相应的值是否符合要求
 
-                //  echo $wx_name;
-                $data =  Yii::$app->db->createCommand()->batchInsert('wex_account', ['wx_name', 'wx_appid','wx_secret','wx_remark','wx_time'], [
+              //  echo $wx_name;
+              $data =  Yii::$app->db->createCommand()->batchInsert('wex_account', ['wx_name', 'wx_appid','wx_secret','wx_remark','wx_time'], [
                     ["$wx_name", "$wx_appid","$wx_secret","$wx_remark","$wx_time"],
                 ])->execute();
-                if($data){
-                    return $this->redirect("index.php?r=index/index_2");
-                }else{
-                    return $this->render("index_1.html") ;
-                }
+              if($data){
+                  return $this->redirect("index.php?r=index/index_2");
+              }else{
+                  return $this->render("index_1.html") ;
+              }
             }else{
                 return $this->render("index_1.html") ;
             }
@@ -61,20 +61,20 @@ class IndexController extends Controller
     public function actionIndex_2(){
         $request = Yii::$app->request;//用于判断对否有post值传进来
         $sum   = Account::find()->asArray()->count(); //查询总条数  echo $titles;die;
-        $strip = 2;                                  //设置每页展示条数
+        $strip = 5;                                  //设置每页展示条数
         $pages = ceil($sum/$strip);                 //计算总页数    echo $pages;
-        if($request->get('page')){
-            $page = $request->get('page');
-        }else {
-            $page = 1;//获取当前页
-        }
+            if($request->get('page')){
+                $page = $request->get('page');
+            }else {
+                $page = 1;//获取当前页
+            }
         $offset = ($page-1)*$strip;//计算偏移量
         $up    = $page<1?1:$page-1;//上一页
         $down  = $page>$pages?$pages:$page+1; //下一页
         $data   = Account::find()->offset($offset)->limit($strip)->asArray()->all(); //查询总条数  echo $titles;die;
-        //  Article::find()->where([‘status’=>‘1’])->orderBy(‘dateDESC’)->offset(5)->limit(3)->all();
-        // print_r($data);
-
+      //  Article::find()->where([‘status’=>‘1’])->orderBy(‘dateDESC’)->offset(5)->limit(3)->all();
+       // print_r($data);
+        return $this->render("index_2.html",['data'=>$data,'pages'=>$pages,'page'=>$page,'up'=>$up,'down'=>$down]) ;
         //查询数据展示
     }
 }

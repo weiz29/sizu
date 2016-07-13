@@ -16,6 +16,8 @@ class LoginController extends Controller
     //用户登录
     public function actionLogin(){
         $request = Yii::$app->request;
+        //判断是否存在session
+
         if($request->isPost){//接收登录信息
             $username = $request->post('username');
             $pwd      = md5($request->post('pwd')) ;
@@ -33,25 +35,6 @@ class LoginController extends Controller
             return $this->render("login.html");
         }
     }
-////用户注册   此处省略
-//    public function actionRegister(){
-//        $request = Yii::$app->request;
-//        if($request->isPost){
-//            //接收登录信息
-//            $username = $request->post('username');
-//            //查询用户名是否已经存在
-//            $titles =  User::find()->asArray()->where(['user_name'=>$username])->one() ;
-//            if($titles):echo "<script>alert('用户名".$username."已存在,请重新输入')</script>" ;  return $this->render("register.html"); endif;
-//            $pwd1     = md5($request->post('pwd1'));
-//            $pwd2     = md5($request->post('pwd2'));
-//            if($pwd2!=$pwd1): echo "<script>alert('两次输入的密码不一样')</script>";return $this->render("register.html"); endif;
-//            //入库
-//
-//
-//        }else{
-//            return $this->render("register.html");
-//        }
-//    }
 
     //退出登录
     public function actionExit(){
@@ -61,7 +44,7 @@ class LoginController extends Controller
         if($data){
             return $this->render("login.html");
         }else{
-            echo 12334;
+            return $this->render("login.html");
         }
 
     }
